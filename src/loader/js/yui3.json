@@ -595,6 +595,14 @@
         ],
         "skinnable": true
     },
+    "content-editable": {
+        "requires": [
+            "node-base",
+            "editor-selection",
+            "stylesheet",
+            "plugin"
+        ]
+    },
     "controller": {
         "use": [
             "router"
@@ -1473,6 +1481,7 @@
         "requires": [
             "base",
             "node",
+            "plugin",
             "selector-css3",
             "yui-throttle"
         ]
